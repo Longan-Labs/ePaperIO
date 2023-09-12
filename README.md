@@ -4,13 +4,13 @@ title: TBD
 keywords:
 - XIAO
 image: TBD
-slug: EPAPER 2.13
+slug: EPAPER IO BREAK OUT BOARD
 last_update:
   date: 9-8-2023
   author: Stephen Lo
 ---
 
-<p style={{textAlign: 'center'}}><img src="https://raw.githubusercontent.com/Longan-Labs/ePaper213/main/images/3-105990170-2.13-inch-ePaper-Breakout-Board-back.jpg" alt="pir" width={600} height="auto" /></p>
+<p style={{textAlign: 'center'}}><img src="https://raw.githubusercontent.com/Longan-Labs/ePaperIO/main/images/4-105990172-ePaper-Breakout-Board-45back.jpg" alt="pir" width={600} height="auto" /></p>
 
 The 2.13 inch ePaper Breakout Board is a specialized expansion board designed for seamless integration with Seeed Studio's XIAO development board and Raspberry Pi. This board offers a highly flexible and convenient way to incorporate ePaper display capabilities into a wide range of projects, from smart homes to industrial control systems and educational applications. The board comes equipped with a XIAO socket, a 40-pin header for Raspberry Pi, a 4-pin Grove connector, and a user button, providing multiple options for connectivity and control.
 
@@ -18,16 +18,9 @@ The 2.13 inch ePaper Breakout Board is a specialized expansion board designed fo
 
 ## Features
 
-- **High Compatibility**: Designed for seamless integration with Seeed Studio XIAO and Raspberry Pi.
-- **Multiple Interfaces**: Includes a XIAO socket, a 40-pin header for Raspberry Pi, and a 4-pin Grove connector.
-- **User Button**: A built-in user button for implementing various custom functions.
 
 ## Specification
 
-- **Compatibility**: Designed for Seeed Studio XIAO and Raspberry Pi.
-- **Communication Interface**: SPI (for connecting ePaper display).
-- **User Button**: Two.
-- **Grove Connector**: Two 4-pin, for I2C communication and UART.
 
 ## Applications
 
@@ -42,7 +35,6 @@ This section provides a detailed overview of the various components and interfac
 
 ![](https://raw.githubusercontent.com/Longan-Labs/ePaper213/main/images/hw.jpg)
 
-- **1. 40-pin Header for Raspberry Pi**: For connecting a Raspberry Pi.
 - **2. 20-pin FPC Conncctor**: For the 2.13 inch ePaper.
 - **3. User Button**: For implementing various custom functions.
 - **4. 4-pin Grove Connector**: For connecting other Grove modules or devices.
@@ -50,15 +42,14 @@ This section provides a detailed overview of the various components and interfac
 
 ### Pin Defines
 
-|ePaper|XIAO|RASPBERRY PI|
-|------|----|------------|
-|RST|D0|GPIO13|
-|CS|D1|GPIO5|
-|BUTTON|D2|GPIO17|
-|DC|D3|GPIO6|
-|BUSY|D5|GPIO19|
-|SCK|D8|GPIO11|
-|MOSI|D10|GPIO10|
+|ePaper|XIAO|
+|------|----|
+|RST|D0|
+|CS|D1|
+|DC|D3|
+|BUSY|D5|
+|SCK|D8|
+|MOSI|D10|
 
 ## Getting Started with Arduino
 
@@ -69,9 +60,6 @@ Welcome to the quick start guide for the 2.13 inch ePaper Breakout Board. This g
 3. **Download Test Code**: Download the [test code](https://github.com/Longan-Labs/ePaper_213TestCode) onto the XIAO ESP32 C3 processor.
 4. **Run and Observe**: After successfully downloading the code, you should see some logos displayed on the ePaper screen.
 
-## Getting Started with Raspberry Pi
-
-// 这部分请黎老板帮忙完成一下，我不会用树莓派
 
 ## Schematic Online Viewer
 
