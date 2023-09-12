@@ -53,14 +53,17 @@ This section provides a detailed overview of the various components and interfac
 |SCK|D8|
 |MOSI|D10|
 
-## Getting Started with Arduino
+## Getting Started
 
-Welcome to the quick start guide for the 2.13 inch ePaper Breakout Board. This guide aims to help you set up and get started with your new 2.13 inch ePaper Breakout Board in conjunction with the XIAO ESP32 C3 main controller.
+To get you up and running quickly, we'll be using a 2.13-inch ePaper and a XIAO ESP32 C3 for this guide. If you're working with ePapers of different sizes, you can find the demo code specific to those on their respective product pages.
 
-1. **Insert XIAO ESP32 C3**: Insert the XIAO ESP32 C3 into the socket on the expansion board.
-2. **Connect 2.13-inch ePaper Display**: Insert the 2.13-inch ePaper display into the FPC connector designated for the screen.
-3. **Download Test Code**: Download the [test code](https://github.com/Longan-Labs/ePaper_213TestCode) onto the XIAO ESP32 C3 processor.
-4. **Run and Observe**: After successfully downloading the code, you should see some logos displayed on the ePaper screen.
+1. **Insert the ePaper into the FPC Connector**: Carefully slide your 2.13-inch ePaper into the 20-pin FPC connector on the ePaper Breakout Board.
+   
+2. **Insert the XIAO ESP32 C3 into the XIAO Socket**: Align the pins and gently insert your XIAO ESP32 C3 into the XIAO socket on the board.
+
+3. **Download the Demo Code**: Navigate to the [demo code repository](https://github.com/Longan-Labs/ePaper_213TestCode) and download the code onto your XIAO ESP32 C3. Follow the instructions in the repository to upload the code.
+
+And there you have it! You're now ready to start exploring the endless possibilities with your ePaper Breakout Board and XIAO ESP32 C3.
 
 
 ## Schematic Online Viewer
