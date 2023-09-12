@@ -12,33 +12,35 @@ last_update:
 
 <p style={{textAlign: 'center'}}><img src="https://raw.githubusercontent.com/Longan-Labs/ePaperIO/main/images/4-105990172-ePaper-Breakout-Board-45back.jpg" alt="pir" width={600} height="auto" /></p>
 
-The 2.13 inch ePaper Breakout Board is a specialized expansion board designed for seamless integration with Seeed Studio's XIAO development board and Raspberry Pi. This board offers a highly flexible and convenient way to incorporate ePaper display capabilities into a wide range of projects, from smart homes to industrial control systems and educational applications. The board comes equipped with a XIAO socket, a 40-pin header for Raspberry Pi, a 4-pin Grove connector, and a user button, providing multiple options for connectivity and control.
+Meet the ePaper Breakout Board, your go-to solution for driving ePaper displays effortlessly. Designed with a 20-pin FPC connector, this board provides a seamless link to your ePaper. But that's not all! With an onboard XIAO socket, you can harness the power of XIAO as the processor to control your ePaper. And if you're looking to expand your options, the 8-pin 2.54 Header allows you to easily integrate any microcontroller of your choice. Think of this board as your ePaper's "Best Friend Forever," enhancing its capabilities and making your life easier.
 
-**Note**: This expansion board **does not include** a 2.13-inch ePaper display; the display must be purchased separately.
+**Note**: This breakout board **does not include** an ePaper display; the display must be purchased separately.
 
 ## Features
 
-
-## Specification
-
+- **20-pin FPC Connector**: Provides a robust and reliable connection to ePaper displays.
+- **XIAO Socket**: Allows you to use XIAO as the processor, offering a compact yet powerful control solution.
+- **8-pin 2.54 Header**: Offers flexibility by letting you connect to any microcontroller, opening up a world of possibilities.
+- **Plug-and-Play**: Designed for ease of use, making it perfect for both beginners and experts.
+- **Versatile Applications**: Suitable for a wide range of ePaper displays, from small to large sizes.
 
 ## Applications
 
-- **Electronic Labels**: For use in stores or warehouses for long-lasting, low-power information display on product labels.
-- **Information Boards**: Suitable for public transport or conference rooms, providing long-term static information display.
-- **Portable Devices**: Such as e-readers or outdoor navigation devices that require long-lasting information display without consuming much power.
-- **Energy-Efficient Projects**: Suitable for any applications requiring low power consumption and long-lasting information retention.
+- **Digital Signage**: Use the ePaper Breakout Board to create dynamic and energy-efficient digital signs.
+- **E-Readers**: Build your own customized e-reader with features tailored to your needs.
+- **Smart Home Control Panels**: Integrate the board into a smart home system for a sleek and modern control panel.
+- **Retail Price Tags**: Create electronic price tags for a more efficient and eco-friendly retail experience.
+- **Educational Tools**: Develop interactive educational materials that can be easily updated and are energy-efficient.
 
 ## Hardware Overview
 
-This section provides a detailed overview of the various components and interfaces on the 2.13 inch ePaper Breakout Board.
+This section provides a detailed overview of the various components and interfaces on the ePaper Breakout Board.
 
-![](https://raw.githubusercontent.com/Longan-Labs/ePaper213/main/images/hw.jpg)
+![](https://raw.githubusercontent.com/Longan-Labs/ePaperIO/main/images/hw.png)
 
-- **2. 20-pin FPC Conncctor**: For the 2.13 inch ePaper.
-- **3. User Button**: For implementing various custom functions.
-- **4. 4-pin Grove Connector**: For connecting other Grove modules or devices.
-- **5. XIAO Socket**: For connecting the Seeed Studio XIAO development board.
+- **1. 20-pin FPC Conncctor**: For the 2.13 inch ePaper.
+- **2. XIAO Socket**: For connecting the Seeed Studio XIAO development board.
+- **3. IO Break out**: For connecting the others controller, such Arduino UNO or Raspberry Pi.
 
 ### Pin Defines
 
@@ -63,16 +65,13 @@ Welcome to the quick start guide for the 2.13 inch ePaper Breakout Board. This g
 
 ## Schematic Online Viewer
 
-<div className="altium-ecad-viewer" data-project-src="https://github.com/Longan-Labs/ePaper213/raw/main/epaper213.zip" style={{borderRadius: '0px 0px 4px 4px', height: 500, borderStyle: 'solid', borderWidth: 1, borderColor: 'rgb(241, 241, 241)', overflow: 'hidden', maxWidth: 1280, maxHeight: 700, boxSizing: 'border-box'}}>
+<div className="altium-ecad-viewer" data-project-src="https://github.com/Longan-Labs/ePaperIO/raw/main/epaperIO.zip" style={{borderRadius: '0px 0px 4px 4px', height: 500, borderStyle: 'solid', borderWidth: 1, borderColor: 'rgb(241, 241, 241)', overflow: 'hidden', maxWidth: 1280, maxHeight: 700, boxSizing: 'border-box'}}>
 </div>
 
 
 ## Resources
 
-- **[Zip]** [Eagle file](https://github.com/Longan-Labs/ePaper213/raw/main/epaper213.zip)
-- **[Github]** [Demo Code](https://github.com/Longan-Labs/ePaper_213TestCode)
-- **[PDF]** [Datasheet - ssd1680](https://github.com/Longan-Labs/ePaper213/blob/main/SSD1680.pdf)
-- **[PDF]** [Datasheet - GDEY0213B74](https://github.com/Longan-Labs/ePaper213/blob/main/GDEY0213B74.pdf)
+- **[Zip]** [Eagle file](https://github.com/Longan-Labs/ePaperIO/raw/main/epaperIO.zip)
 
 ## Tech Support
 If you have any technical issue.  submit the issue into our [forum](https://forum.seeedstudio.com/).
